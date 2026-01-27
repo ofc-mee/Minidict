@@ -3,7 +3,7 @@
 int c=0; // to clear buffer we can not add it like int c in while so gonna make it global
 int choice; 
 
-//int inpcho(int choice) //knock knock IS this CUTE girl trynna change value using call by value hHAHAHA we need call be refrence here
+//int inpcho(int choice) 
 int inpcho(int *choice)
 {
 printf("enter your choice :  ");
