@@ -1,7 +1,7 @@
-//MINI DICTIONARY BY MALIQA starting at 12:53 sunday 25-jan-2026 at my bed
+//MINI DICTIONARY BY MALIQA
 #include <stdio.h>
 int c=0; // to clear buffer we can not add it like int c in while so gonna make it global
-int choice; // i think so kafi bar use hona enter your choice to q na function bnaya jaye ..aik bar hi hua nah nah ik k kahan ki baat thi
+int choice; 
 
 //int inpcho(int choice) //knock knock IS this CUTE girl trynna change value using call by value hHAHAHA we need call be refrence here
 int inpcho(int *choice)
@@ -13,7 +13,7 @@ printf("enter your choice :  ");
 }
 
 
-int vowelcouont(char word[]); //ahan only char word is gonna creating alot of mess [] this is good approach
+int vowelcouont(char word[]); 
 
 
 int main()
