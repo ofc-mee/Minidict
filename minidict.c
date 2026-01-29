@@ -1,6 +1,6 @@
 //MINI DICTIONARY BY MALIQA
 #include <stdio.h>
-int c=0; // to clear buffer we can not add it like int c in while so gonna make it global
+int c=0;
 int choice; 
 
 //int inpcho(int choice) 
@@ -13,7 +13,7 @@ printf("enter your choice :  ");
 }
 
 
-int vowelcouont(char word[]); 
+int vowelcount(char word[]); 
 
 
 int main()
@@ -50,7 +50,7 @@ switch(choice)
         char word[80];
         scanf("%50s",word); // heard that this prevent buffer overflow*/
 
-       int count = vowelcouont(word);
+       int count = vowelcount(word);
 
        printf("Number of vowels in your word are : %d \n " ,count);
 
@@ -89,7 +89,7 @@ return 0;
 
 
 
-int vowelcouont(char word[])  //defination of function
+int vowelcount(char word[])  //defination
 {
   int count=0;
   int i=0;
